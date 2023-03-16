@@ -1,0 +1,27 @@
+{
+  "name": "moneycounter_backend",
+  "version": "0.0.0",
+  "description": "Backend for moneycounter app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MashDor/moneycounter_backend.git"
+  },
+  "author": "Maria Dorofeeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MashDor/moneycounter_backend/issues"
+  },
+  "homepage": "https://github.com/MashDor/moneycounter_backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
